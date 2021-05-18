@@ -1,0 +1,24 @@
+--- hot ---
+Number of nodes: 1123
+Number of edges: 1399
+Number of suspended users: 1, 0.08904719501335707%
+Partinion A: 570, 50.756901157613534%
+Partinion B: 553, 49.24309884238646%
+Suspended users(partition A): 1, 0.17543859649122806% (in partition), 0.08904719501335707% (in total)
+Suspended users(partition B): 0, 0.0% (in partition), 0.0% (in total)
+--- top ---
+Number of nodes: 1442
+Number of edges: 1579
+Number of suspended users: 22, 1.5256588072122053%
+Partinion A: 723, 50.13869625520111%
+Partinion B: 719, 49.86130374479889%
+Suspended users(partition A): 12, 1.6597510373443984% (in partition), 0.8321775312066574% (in total)
+Suspended users(partition B): 7, 0.9735744089012517% (in partition), 0.4854368932038835% (in total)
+--- controversial ---
+Number of nodes: 1576
+Number of edges: 2147
+Number of suspended users: 28, 1.7766497461928934%
+Partinion A: 787, 49.93654822335025%
+Partinion B: 789, 50.06345177664975%
+Suspended users(partition A): 10, 1.2706480304955527% (in partition), 0.6345177664974619% (in total)
+Suspended users(partition B): 16, 2.0278833967046896% (in partition), 1.015228426395939% (in total)
