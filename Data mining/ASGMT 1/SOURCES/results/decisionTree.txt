@@ -1,0 +1,8 @@
+Leaf size: 4, max depth 517, 0.708
+Leaf size: 5, max depth 132, 0.704
+Leaf size: 9, max depth 296, 0.704
+Leaf size: 9, max depth 888, 0.701
+Leaf size: 10, max depth 145, 0.7070000000000001
+Leaf size: 10, max depth 598, 0.7030000000000001
+Leaf size: 12, max depth 800, 0.7020000000000001
+Leaf size: 13, max depth 715, 0.702
