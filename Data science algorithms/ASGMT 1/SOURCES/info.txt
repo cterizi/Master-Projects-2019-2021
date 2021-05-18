@@ -1,0 +1,30 @@
+##############################
+Folders and Files Information
+##############################
+
+- DELIVERABLES: main folder
+	/*FOLDERS*/
+		+++ code: contains 3 python files
+			---- main.py: 
+					(1) Text representation as a set of integers
+					(2) MinHash implementation and write real and predicted jaccard similarity to files
+					(3) Choose best b and r parameters and plot the relevant graph
+					(4) LSH implementation and write the candidates pairs of users to files
+			---- calculateError.py:
+					(1) Reads real Jaccard similarity and this one from signatures(2, 10, 20, 50, 100 and 200 signatures) for all users combinations
+					(2) Graphic design for cdf of absolute error (real JS - predicted JS)
+					(3) Graphic design for conversion time
+					(4) Graphic design for TP, FN and FP (based on ground truth)
+			---- lshCheck.py: 
+					(1) Reads candidate users from "step3_lsh_predicted_pairs_for_200_signatures" folder
+					(2) For step (1) users read their text and convert them into number 
+					(3) Reads ground truth data
+					(4) Calculate real Jaccard siilarity (JS threshold = 0.85)
+					(5) Graphic design
+		+++ step2_real_JS_for_200_signatures: contains 1 txt file, it has 4 columns -> user1 user2 JS(real) JS(200 signatures)
+			---- 100.txt
+		+++ step3_lsh_predicted_pairs_for_200_signatures: contains 4 txt files, each file has 2 columns -> user1 user2
+			---- x.txt: where x = {100, 1k, 2.5k, 10k}
+	/*FILES*/
+		+++ info.txt: contains info on the hierarchy / structure of the attached files
+		+++ readMe.pdf: it is the main report for the project(4 pages)
